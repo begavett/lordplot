@@ -1,0 +1,22 @@
+Package: lordplot
+Title: Plot that Relates Test Scores to the Traits Underlying the Test
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Brandon", "Gavett", email = "bgavett@uccs.edu", role = c("aut", "cre")),
+    person("Richard", "Jones", email = "richard_jones@brown.edu", role = "aut"))
+Description: Replicates plots produced by Lord in his 1953 article,
+    "The relation of test score to the trait underlying the test."
+    This function takes item response theory parameters (currently 2-
+    and 3-parameter logistic) as the primary inputs and uses them to
+    create plots relating a theoretical normal distribution (representing
+    the latent trait and plotted on the x-axis) to the "true score"
+    distribution (representing a large number of possible observed test
+    results and plotted on the y-axis).
+Depends:
+    R (>= 3.3.1)
+Suggests:
+    ltm
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1.9000
