@@ -1,6 +1,6 @@
 Package: lordplot
 Title: Plot that Relates Test Scores to the Traits Underlying the Test
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: c(
     person("Brandon", "Gavett", email = "bgavett@uccs.edu", role = c("aut", "cre")),
     person("Richard", "Jones", email = "richard_jones@brown.edu", role = "aut"))
