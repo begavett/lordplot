@@ -12,7 +12,7 @@ This is a development package available for installation through github.
 ```r
 library(devtools)
 install_github("begavett/lordplot")
-
+```
 
 Here's an example of how to use this function at its most simple.
 
