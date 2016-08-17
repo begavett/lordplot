@@ -7,6 +7,13 @@ output: html_document
 
 This function was created in response to a contest offered by Rich Jones at the 2016 Latent Variable Methods Workshop.
 
+This is a development package available for installation through github.
+
+```r
+library(devtools)
+install_github("begavett/lordplot")
+
+
 Here's an example of how to use this function at its most simple.
 
 The defaults are a 3-item test with:
