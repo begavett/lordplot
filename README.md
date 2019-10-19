@@ -10,7 +10,7 @@ This function was created in response to a contest offered by Rich Jones at the 
 This is a development package available for installation through github.
 
 ```r
-library(devtools)
+library(remotes)
 install_github("begavett/lordplot")
 ```
 
